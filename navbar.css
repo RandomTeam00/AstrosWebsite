@@ -1,0 +1,66 @@
+body {
+  margin:0;
+  font-family:fantasy;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1C3D74;
+  padding: 40px 30px;
+  display: block;
+}
+
+.topnav a {
+  /*float:left;*/
+  display:inline;
+  color: #ffffff;
+  text-align: center;
+  padding: 56px 20px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #00779F;
+  color: white;
+
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+.topnav center {
+    text-align: center;
+    border: 3px solid green;
+}
+
+p.center {
+    text-align: center;
+    color: red;
+}
+
+ul.x{
+  text-align: center;
+  list-style-type: none;
+  /*display:inline;*/
+  padding: 1px,1px;
+}
+
+#logo{
+  float: left;
+  position: relative;
+width: 20%;
+height: 132px;
+margin-top: -56px;
+margin-bottom: -96px;
+margin-left: 270px;
+}
+
+#xx:hover{
+  background-color: #1C3D74;
+  color: #1C3D74;
+}
