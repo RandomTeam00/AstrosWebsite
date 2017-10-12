@@ -43,21 +43,41 @@ p.center {
     color: red;
 }
 
+nav{
+  width:100%;
+}
+
+.social{
+  /*float: right;*/
+  /*text-align: right;*/
+  display: inline;
+  width: 25px;
+  height: 25px;
+  margin-top: -13.5px;
+}
+
 ul.x{
   text-align: center;
   list-style-type: none;
-  /*display:inline;*/
+  display:inline-block;
   padding: 1px,1px;
+}
+li{
+  display: inline-block;
+  text-align: center;
 }
 
 #logo{
-  float: left;
-  position: relative;
-width: 20%;
-height: 132px;
-margin-top: -56px;
-margin-bottom: -96px;
-margin-left: 270px;
+  vertical-align: middle;
+      text-align: left;
+      /* float: left; */
+      display: inline;
+      position: relative;
+      width: 23%;
+      height: 132px;
+      margin-top: -99px;
+      margin-bottom: -96px;
+      /* margin-left: -400px; */
 }
 
 #xx:hover{
