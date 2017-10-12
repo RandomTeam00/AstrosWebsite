@@ -1,0 +1,43 @@
+body{
+  margin :0;
+}
+
+.header {
+  overflow: hidden;
+  /*width: 100%*/
+  background-color: #1C3D74;
+  padding: 40px 30px;
+  display: block;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#logo {
+  height: 100px;
+  float:left;
+  vertical-align: middle;
+}
+
+ul {
+  display: inline;
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  display: inline;
+  cursor: pointer;
+  /*border: 1px solid black;*/
+  padding: 20px;
+  margin-left: -5px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+li:hover {
+  background: #fff;
+}

@@ -3,37 +3,39 @@ body {
   font-family:fantasy;
 }
 
-.topnav {
+.topnav1 {
   overflow: hidden;
   background-color: #1C3D74;
   padding: 40px 30px;
   display: block;
+  z-index: 1000 !important;
+      margin-top: -11px;
 }
 
-.topnav a {
+.topnav1 a {
   /*float:left;*/
   display:inline;
   color: #ffffff;
   text-align: center;
-  padding: 56px 20px;
+  padding: 53px 20px;
   text-decoration: none;
   font-size: 17px;
 
 }
 
-.topnav a:hover {
+.topnav1 a:hover {
   background-color: #00779F;
   color: white;
 
 }
 
-.topnav a.active {
+.topnav1 a.active {
     background-color: #4CAF50;
     color: white;
     text-align: center;
 }
 
-.topnav center {
+.topnav1 center {
     text-align: center;
     border: 3px solid green;
 }
@@ -54,6 +56,8 @@ nav{
   width: 25px;
   height: 25px;
   margin-top: -13.5px;
+  margin-bottom: -5px;
+  /*float: right;*/
 }
 
 ul.x{
@@ -69,18 +73,27 @@ li{
 
 #logo{
   vertical-align: middle;
-      text-align: left;
-      /* float: left; */
-      display: inline;
-      position: relative;
-      width: 23%;
-      height: 132px;
-      margin-top: -99px;
-      margin-bottom: -96px;
-      /* margin-left: -400px; */
+text-align: left;
+/* float: left; */
+display: inline;
+position: relative;
+width: 23%;
+height: 122px;
+margin-top: -79px;
+margin-bottom: -96px;
+padding-top: 10px;
+/* margin-left: -400px; */
 }
 
 #xx:hover{
   background-color: #1C3D74;
   color: #1C3D74;
 }
+
+
+/*Carousel Css*/
+/*#myCarousel {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}*/
