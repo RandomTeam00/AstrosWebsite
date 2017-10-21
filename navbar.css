@@ -1,15 +1,15 @@
 body {
   margin:0;
-  font-family:fantasy;
+  font-family: 'PT Serif', serif;
 }
 
 .topnav1 {
   overflow: hidden;
-  background-color: #1C3D74;
+    background-color: #1C3D74;
   padding: 40px 30px;
   display: block;
   z-index: 1000 !important;
-      margin-top: -11px;
+      /*margin-top: -11px;*/
 }
 
 .topnav1 a {
@@ -26,7 +26,6 @@ body {
 .topnav1 a:hover {
   background-color: #00779F;
   color: white;
-
 }
 
 .topnav1 a.active {
@@ -79,9 +78,9 @@ display: inline;
 position: relative;
 width: 23%;
 height: 122px;
-margin-top: -79px;
+margin-top: -80px;
 margin-bottom: -96px;
-padding-top: 10px;
+/*padding-top: 10px;*/
 /* margin-left: -400px; */
 }
 
@@ -97,3 +96,13 @@ padding-top: 10px;
   width: 100%;
   overflow: hidden;
 }*/
+
+/*sticky navbar*/
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+  #welcome{
+    font-family: 'Anton', sans-serif;
+  }
